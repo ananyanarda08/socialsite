@@ -17,11 +17,15 @@ const Profile = () => {
         <img className="profileUserImg" src="assets/person/7.jpeg" alt="" />
       </div>
 
+      <div className="profileInfo">
+        <h4 className='profileInfoName'>Anna Sharma</h4>
+        <span className='profileInfoDesc'>Hello my friends</span>
+      </div>
       <div className="profileRightBottom">
       <Feed/>
-     
-      <Rightbar/>
+      <Rightbar profile/>
       </div>
+
       </div>
       </div>
     </>

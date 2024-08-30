@@ -23,9 +23,11 @@
     border-radius: 50%;
     object-fit: cover;
     position: absolute;
-    left: 0;
+    left: 350px;
     right: 0;
     margin: auto;
+    top: 234px;
+    border: 2px solid white;
 }
 
 .profileRightBottom{

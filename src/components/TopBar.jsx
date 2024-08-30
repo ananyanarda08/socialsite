@@ -5,6 +5,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
+
 const TopBar = () => {
   
   return (
@@ -31,17 +32,17 @@ const TopBar = () => {
 
                 <div className="topbarIconItem">
                 <PersonIcon/>
-                <span className="topbarIconBadge">1</span>
+                <span className="topbarIconBadge"><span className='one' >1</span></span>
                 </div>
 
                 <div className="topbarIconItem">
                 <ChatIcon/>
-                <span className="topbarIconBadge">2</span>
+                <span className="topbarIconBadge"><span className='one' >2</span></span>
                 </div>
 
                 <div className="topbarIconItem">
                 <NotificationsIcon/>
-                <span className="topbarIconBadge">3</span>
+                <span className="topbarIconBadge"><span className='one' >3</span></span>
                 </div>
               
 

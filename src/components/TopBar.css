@@ -70,7 +70,7 @@
     width:15px;
     height: 15px;
     background-color: red;
-    border-radius: 50%;
+    border-radius: 40%;
     color:white;
     position:absolute;  
     top:-7px;
@@ -80,4 +80,13 @@
     width:32px;
     height: 32px;
     border-radius:50%;
+}
+
+.topbarIconBadge span{
+ bottom: -2px;   
+ display: grid;
+ position:absolute;
+ right: 5px;
+ font-size: 15px;
+
 }
